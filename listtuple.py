@@ -1,4 +1,7 @@
 #accessing elements in a list
+from statistics import stdev
+
+
 marks = [80, 90, 75, 85,]
 
 print(marks[0])
@@ -67,3 +70,23 @@ print(numbers[::-5])
 print(numbers[-1::])
 print(numbers[::-4])
 print(numbers[::-3])
+
+#touples in python
+#touple is a colection of multiple values that is ordered and cannot be changed after creation
+student = ("bhargavi", 98, "python")
+
+print(student[0])
+#immutable nature of tuples
+
+
+
+#tuple gives error 
+#count
+numbers = (10, 20, 20, 30, 20)
+print(numbers.count(20))
+
+numbers = (5, 6, 7, 8, 9,)
+print(len(numbers))
+print(max(numbers))
+print(min(numbers))
+print(sum(numbers))
